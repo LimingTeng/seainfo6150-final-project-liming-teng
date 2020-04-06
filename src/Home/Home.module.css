@@ -6,9 +6,9 @@
   height: 35em;
 }
 
-/*@media (max-width: 480px) {*/
-/*  .image {*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*  }*/
-/*}*/
+@media (max-width: 480px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}

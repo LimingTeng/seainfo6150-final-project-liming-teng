@@ -1,0 +1,40 @@
+{
+  "20b54c306772": {
+    "id": "20b54c306772",
+    "categoryId": "porsche",
+    "year": 2020,
+    "available": true,
+    "price": 200000,
+    "sale": 180000,
+    "title": "2020 Porsche 911",
+    "description": "The new version of the Porsche is a dream!"
+  },
+  "9029c82433e5": {
+    "id": "9029c82433e5",
+    "categoryId": "ferrari",
+    "year": 2018,
+    "available": true,
+    "price": 300000,
+    "title": "2018 Ferrari",
+    "description": "Best Ferrari!"
+  },
+  "e2b6c98cf5c5": {
+    "id": "e2b6c98cf5c5",
+    "categoryId": "lamborghini",
+    "year": 2016,
+    "available": true,
+    "price": 300000,
+    "sale": 250000,
+    "title": "2016 Lamborghini",
+    "description": "We love the 2016 Lamborghini!"
+  },
+  "84902cf57bb4": {
+    "id": "84902cf57bb4",
+    "categoryId": "mercedes",
+    "year": 2017,
+    "available": true,
+    "price": 150000,
+    "title": "2017 Mercedes G63",
+    "description": "Our 2017 G63 has all the right moves!"
+  }
+}

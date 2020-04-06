@@ -1,0 +1,80 @@
+.container {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 20%;
+}
+
+input:not(.submit) {
+  height: 4em;
+  vertical-align: text-bottom;
+  width: -webkit-fill-available;
+}
+
+.labelInput {
+  flex: auto;
+  margin: 0 1em;
+}
+
+.shipmentAddress {
+  vertical-align: text-bottom;
+  padding: 1em 2px;
+}
+
+.error {
+  color: red;
+  margin: 0;
+}
+
+.falseInput {
+  border: 1px solid red;
+  background-color: rgb(250, 185, 185);
+}
+
+label:not(.shipmentAddress) {
+  margin-left: 0.5em;
+  display: block;
+  color: grey;
+  line-height: initial;
+  position: absolute;
+}
+
+.test {
+  line-height: 80px;
+}
+
+input[type='radio'] {
+  margin: 0.5em 0.5em;
+}
+
+input:read-only {
+  background-color: lightgrey;
+}
+
+.submit {
+  border: none;
+  text-align: center;
+  margin: 1em auto;
+  padding: 0.2em 1em;
+}
+
+.submitInput {
+  background-color: #fc850f;
+  color: aliceblue;
+  border-radius: 3em;
+  font-size: 1em;
+}
+
+@media (min-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    line-height: 2em;
+    margin-top: 1em;
+  }
+  .fieldset {
+    display: inline;
+    min-width: 600px;
+    margin-top: 5%;
+  }
+}

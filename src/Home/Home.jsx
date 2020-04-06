@@ -1,14 +1,13 @@
-import React from 'react'
-import Form from "../Form/Form";
+import React from 'react';
+
+import styles from './Home.module.css';
 
 const Home = () => {
     return (
-        <div>
-            The home page
-            <img src="/images/treefrog.jpg" alt="tree frog" />
-            <Form />
+        <div className={styles.container}>
+            <img src="/images/information/home.jpg" className={styles.image} alt="home"/>
         </div>
     )
-}
+};
 
-export default Home
+export default Home;

@@ -1,0 +1,34 @@
+{
+  "porsche": {
+    "id": "porsche",
+    "img": {
+      "sm": "/images/product/porsche-sm.jpg",
+      "lg": "/images/product/porsche-lg.jpg"
+    },
+    "name": "Porsche"
+  },
+  "ferrari": {
+    "id": "ferrari",
+    "img": {
+      "sm": "/images/product/ferrari-sm.jpg",
+      "lg": "/images/product/ferrari-lg.jpg"
+    },
+    "name": "Ferrari"
+  },
+  "lamborghini": {
+    "id": "lamborghini",
+    "img": {
+      "sm": "/images/product/lamborghini-sm.jpg",
+      "lg": "/images/product/lamborghini-lg.jpg"
+    },
+    "name": "Lamborghini"
+  },
+  "mercedes": {
+    "id": "mercedes",
+    "img": {
+      "sm": "/images/product/mercedes-sm.jpg",
+      "lg": "/images/product/mercedes-lg.jpg"
+    },
+    "name": "Mercedes"
+  }
+}

@@ -1,5 +1,8 @@
 .container {
     text-align: center;
+    font-size: 300%;
+    background-color: #ffc71f;
+    background-position: 0% 0%;
 }
 
 .image {

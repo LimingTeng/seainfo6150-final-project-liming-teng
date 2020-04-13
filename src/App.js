@@ -48,6 +48,10 @@ function App(props) {
             </Link>
           </div>
 
+          <div className={styles.informationContainer}>
+             <img src="/images/information/information.png" className={styles.image} alt="information"/>
+          </div>
+
           <Categories categories={Object.values(props.categories)} />
 
           <main className={styles.mainContainer}>

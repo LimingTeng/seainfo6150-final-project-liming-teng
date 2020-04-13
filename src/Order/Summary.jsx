@@ -95,7 +95,7 @@ class Summary extends Component {
           <fieldset className={styles.submit}>
             <input
               type='submit'
-              value='Submit order'
+              value='Confirm Order'
               className={styles.submitInput}
             />
           </fieldset>

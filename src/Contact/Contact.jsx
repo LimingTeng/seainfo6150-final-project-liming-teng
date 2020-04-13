@@ -5,13 +5,14 @@ import styles from './Contact.module.css';
 const Contact = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.information}>Email: LuxuryCars@dealer.com
+            <div className={styles.information}>Luxury Car Dealer Information:
+                <br/>Email: LuxuryCars@dealer.com
                 <br/>Phone: 800-820-8820
                 <br/>Address: Bellevue Square, Bellevue, WA 98004
             </div>
             <form className={styles.form}>
                 <fieldset className={styles.leftField}>
-                    <legend>Info</legend>
+                    <legend>Contact Us!</legend>
                     <label htmlFor="lastName">Last name</label>
                     <input
                         type='text'

@@ -11,7 +11,6 @@ export default (
     products,
     selectedOptions: {},
     selectedProductId: null,
-    viewedProducts: []
   },
   action={}
 ) => {
@@ -20,11 +19,6 @@ export default (
       return {
         ...state,
         selectedProductId: action.payload.id,
-      };
-    case 'VIEW_PRODUCT':
-      return {
-        ...state,
-        viewedProducts: [action.payload.id, ...state.viewedProducts]
       };
     case 'REMOVE_OPTION':
       return {
